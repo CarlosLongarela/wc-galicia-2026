@@ -1,0 +1,668 @@
+/** Public WordCamp Galicia 2025 CSS */
+
+/*
+--wp--preset--color--base: #f9f9f9;
+--wp--preset--color--base-2: #ffffff;
+--wp--preset--color--contrast: #333333; // Gris WC Ponte 2024
+--wp--preset--color--contrast-2: #333333;
+--wp--preset--color--contrast-3: #A4A4A4;
+--wp--preset--color--accent: #cfcabe;
+--wp--preset--color--accent-2: #d4cdf4; // Lila clarito WC Ponte 2024
+--wp--preset--color--accent-3: #35ff69; // Verde WC Ponte 2024
+--wp--preset--color--accent-4: #6a478d; // Lila WC Ponte 2024
+--wp--preset--color--accent-5: #b5bdbc;
+
+Payload URL to update CSS https://galicia.wordcamp.org/2025/wp-admin/admin-ajax.php?action=wcrcss_webhook
+*/
+
+.sombra-verde,
+.sombra-verde img {
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-3) !important;
+}
+
+.wp-block-button.sombra-violeta a,
+.sombra-violeta:not(.wp-block-button) {
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4);
+}
+
+.sombra-patros img {
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4) !important;
+}
+
+.sombra-blanca,
+.suscripciones .wp-block-button__link {
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--base-2);
+}
+
+.entry-content li + li {
+	margin-top: 1em;
+}
+
+.cl-ondas-gris-arriba,
+.cl-ondas-gris-arriba img {
+	max-width: 100%;
+}
+
+/* El menu cambia a mobile en 599px, en 600px aún es desktop */
+@media screen and (max-width: 599px) {
+	/*
+		Jetpack subscribe form
+		Using !importants because their selectors are a mess (sorry!)
+	*/
+	.wp-block-jetpack-subscriptions__form-elements {
+		align-items: center !important;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	#subscribe-email {
+		width: 90% !important;
+		margin: auto !important;
+	}
+
+	/* formulario-registro */
+	.formulario_registro .wp-block-jetpack-contact-form-container,
+	.formulario_registro p {
+		max-width: 100% !important;
+	}
+
+	.form-wc-ponte {
+		width: 100%;
+		margin-inline: auto;
+	}
+
+}
+
+/* En 780 hay otro punto de ruptura */
+@media screen and (max-width: 781px) {
+	/* Pie de página centrado */
+	.contenido-pie {
+		flex-direction: column-reverse;
+	}
+
+	.contenido-pie .wp-block-column,
+	.contenido-pie .wp-block-column p {
+		text-align: center !important;
+		margin-inline: auto !important;
+	}
+
+	.contenido-pie .wp-block-column nav,
+	.contenido-pie .wp-block-column ul {
+		align-content: center;
+		align-items: center;
+		margin-inline: auto;
+		justify-content: center;
+	}
+}
+
+.mask-organizer img {
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
+	mask-size: 256px;
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
+
+li.wcb_organizer:nth-of-type(even) .mask-organizer img {
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado-2.png);
+}
+
+.wcb_organizer .entry-content {
+	text-align: center;
+}
+
+.wcb_organizer .entry-content .wp-block-social-links {
+	justify-content: center;
+}
+
+.wcb_organizer .wp-block-social-link-label {
+	display: none;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link {
+	background-color: #e6e6e6 !important;
+	color: var(--wp--preset--color--contrast) !important;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link svg {
+	display: none;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link a::before {
+	background-size: contain !important;
+	content: "";
+	display: inline-block;
+	visibility: visible;
+	height: 30px;
+	width: 30px;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-chain a::before {
+	background: url(https://galicia.wordcamp.org/2025/files/2025/05/www-icon.png) no-repeat center center;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-twitter a::before {
+	background: url(https://galicia.wordcamp.org/2025/files/2025/05/x-icon.png) no-repeat center center;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-wordpress a::before {
+	background: url(https://galicia.wordcamp.org/2025/files/2025/05/wp-icon.png) no-repeat center center;
+}
+
+.wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-linkedin a::before {
+	background: url(https://galicia.wordcamp.org/2025/files/2025/05/icono-linkedin.png) no-repeat center center;
+}
+
+.fondo-div-galicia {
+	background-color: var(--wp--preset--color--accent-4);
+}
+
+.fondo-div-galicia .wp-block-cover__image-background {
+	object-fit: contain;
+}
+
+/* Botón Contacto, botón lila con sombra verde */
+.wp-block-jetpack-contact-form .wp-block-button__link {
+	/*border: 2px solid var(--wp--preset--color--accent-3) !important;*/
+	border-radius: 0;
+	padding: 4px 24px;
+	background-color: var(--wp--preset--color--accent-4) !important;
+	color: var(--wp--preset--color--base-2) !important;
+	font-family: "Open Sans" !important;
+	font-size: 16.8px;
+	font-style: normal;
+	font-weight: 700;
+	box-shadow: var(--wp--preset--color--accent-3) 4px 4px 0px 0px;
+}
+
+/* Invertir interrogante para apertura */
+.con-interrogante strong {
+	font-weight: normal;
+	display: inline-block;
+	transform: scale(-1,1);
+	margin-right: 5px;
+}
+
+/* Linea inferior logo */
+.div-img-galicia-home {
+	position: relative;
+}
+
+.div-img-galicia-home::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 6px;
+	background-color: #a1a9b7; /*2024 #bcaedf*/;
+}
+
+.single-post .entry-content {
+	padding-inline: 1em;
+}
+
+.cl-home-news .wp-block-post,
+.cl-news-pages .wp-block-post {
+	margin-top: 1em;
+}
+
+/* Máscara de entrada en blog */
+.cl-home-news .wp-block-post img,
+.cl-news-pages .wp-block-post img,
+.single-post .wp-block-post-featured-image .wp-post-image {
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mascara-entrada-blog.png);
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
+
+.cl-home-news .wp-block-post img {
+	mask-size: max(370px, 100%);
+}
+
+.cl-news-pages .wp-block-post img {
+	mask-size: max(250px, 100%);
+}
+
+.single-post .wp-block-post-featured-image .wp-post-image {
+	mask-size: min(950px, 100%);
+}
+
+@media screen and (max-width: 781px) {
+	.single-post .wp-block-post-featured-image {
+		max-height: 300px;
+	}
+}
+
+.wp-block-navigation__responsive-container.has-modal-open .wp-block-navigation-submenu {
+	padding-top: 0 !important;
+}
+
+.wp-block-navigation__responsive-container.has-modal-open .wp-block-navigation__responsive-container-content {
+	flex-direction: column-reverse !important;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+:where(.wp-site-blocks *:focus) {
+	outline-width: 1px !important;
+	outline-style: solid;
+	outline-color: #605e5c !important;
+	outline-offset: 4px;
+}
+
+/* Favorites solution by by Juan Hernando */
+.wcb-favourite-session .wcb-session-favourite-icon a.fav-session-button,
+.wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:hover,
+.wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:focus:hover,
+.wordcamp-schedule .wcb-favourite-session div.wcb-session-favourite-icon a.fav-session-button:focus {
+	color: var(--wp--preset--color--accent-4) !important;
+}
+
+.wordcamp-schedule .wcb-favourite-session div.wcb-session-favourite-icon a.fav-session-button:hover,
+.wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:focus {
+	color: #aaa;
+}
+
+/* Attendees */
+#tix-attendees {
+	margin-top: 3em;
+	margin-bottom: 6em;
+}
+
+#tix-attendees .tix-attendee-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#tix-attendees .tix-attendee-list li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: auto;
+}
+
+#tix-attendees .tix-attendee-list li .avatar {
+	width: 130px;
+	height: 130px;
+	float: initial;
+}
+
+#tix-attendees .tix-attendee-list li .tix-attendee-name {
+	text-align: center;
+	margin-inline: auto;
+	max-width: 150px;
+	font-family: var(--wp--preset--font-family--love-ya-like-a-sister);
+	color: var(--wp--preset--color--accent-4);
+	font-size: 1.2em;
+	line-height: 1.2;
+	margin-top: 1em;
+}
+
+.avatar {
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
+	mask-size: 130px;
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
+
+#tix-attendees .tix-attendee-list li:nth-of-type(even) .avatar {
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado-2.png);
+}
+
+@media screen and (max-width: 850px) {
+	#tix-attendees .tix-attendee-list {
+		flex-wrap: wrap;
+	}
+
+	#tix-attendees .tix-attendee-list li {
+		width: 100%;
+	}
+}
+
+/* Schedule */
+.wordcamp-schedule .wordcamp-schedule__date {
+	font-size: 48px;
+	color: var(--wp--preset--color--accent-4)
+}
+
+/*
+.wordcamp-schedule .wordcamp-schedule__day {
+	background-color: #e6e6e6;
+}
+*/
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__column-header {
+	background-color: var(--wp--preset--color--accent-3) !important;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.is-empty {
+	display: none !important;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.has-sessions {
+	color: var(--wp--preset--color--base-2);
+	background-color: var(--wp--preset--color--accent-4) !important;
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session {
+	background-color: #e6e6e6
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title,
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title a {
+	color: var(--wp--preset--color--accent-4);
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session,
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header {
+	/*border: 2px solid #fff !important;*/
+	margin: 2px !important;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled {
+	color: var(--wp--preset--color--accent-2);
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled:hover,
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title .dashicons-star-filled:focus,
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session.wcb-favourite-session .wordcamp-schedule__session-title .dashicons-star-filled {
+	color: var(--wp--preset--color--accent-4);
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-category dd {
+	display: inline-block;
+	padding-inline: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	background-color: var(--wp--preset--color--accent-3);
+	color: var(--wp--preset--color--base);
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-category dd::after {
+	content: "";
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-category dd+dd {
+	background-color: var(--wp--preset--color--accent-2);
+	color: var(--wp--preset--color--base);
+	font-weight: 500;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-speakers,
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session-speakers a {
+	color: var(--wp--preset--color--accent-4);
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session.wcb-favourite-session {
+	background-color: #e0f8ff;
+}
+
+/*** Sessions ***/
+.single-wcb_session .taxonomy-wcb_session_category a {
+	border-radius: 0;
+	padding: 0 1em;
+	margin-right: 1em;
+}
+
+.single-wcb_session .wp-block-post-excerpt__excerpt {
+	text-align: left;
+}
+
+.single-wcb_session .taxonomy-wcb_session_category > a:first-child {
+	background-color: var(--wp--preset--color--accent-3);
+	color: var(--wp--preset--color--accent-4);
+	text-transform: uppercase;
+	padding-right: 24px;
+	font-size: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.488), 18px);
+}
+
+.single-wcb_session .taxonomy-wcb_session_category a:nth-of-type(2) {
+	background-color: var(--wp--preset--color--accent-2);
+	color: var(--wp--preset--color--accent-4);
+	text-transform: uppercase;
+	font-size: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.488), 18px);
+}
+
+.single-wcb_session .taxonomy-wcb_session_category .wp-block-post-terms__separator {
+	display: none;
+}
+
+.single-wcb_session .wordcamp-speakers .wordcamp-speakers__title,
+.single-wcb_session .wordcamp-speakers .wordcamp-speakers__title a {
+	color: var(--wp--preset--color--accent-4);
+	text-decoration: none;
+}
+
+.single-wcb_session .sesion-ponente-contenido .wordcamp-speakers + p {
+	display: none;
+}
+
+.single-wcb_session .sesion-foto-ponente img {
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
+	mask-size: 300px;
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
+
+/*** Speakers ***/
+.single-wcb_speaker .wordcamp-sessions__title {
+	margin-top: 0;
+	padding-top: 20px;
+}
+
+.single-wcb_speaker .wordcamp-sessions__title a {
+	color: var(--wp--preset--color--accent-4);
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.single-wcb_speaker .wordcamp-sessions__details .wordcamp-sessions__time-location {
+	background-color: var(--wp--preset--color--accent-4);
+	color: var(--wp--preset--color--base-2);
+	padding-inline: 1em;
+	text-transform: uppercase;
+	font-style: normal;
+	margin-right: 5px;
+}
+
+.single-wcb_speaker .wordcamp-sessions__details .wordcamp-sessions__time-location,
+.single-wcb_speaker .wordcamp-sessions__details .wordcamp-sessions__categories {
+	display: inline-block;
+	font-size: 0.875em;
+}
+
+.single-wcb_speaker .wordcamp-sessions__details .wordcamp-sessions__categories {
+	visibility: hidden;
+}
+
+.single-wcb_speaker .wordcamp-sessions__details .wordcamp-sessions__categories span {
+	color: var(--wp--preset--color--accent-4);
+	padding-inline: 1em;
+	padding-block: 4px;
+	text-transform: uppercase;
+	font-style: normal;
+	visibility: visible;
+}
+
+.single-wcb_speaker .wordcamp-sessions__details .wordcamp-sessions__categories span:first-child {
+	background-color: var(--wp--preset--color--accent-3);
+	padding-right: 1.1em;
+}
+
+.single-wcb_speaker .wordcamp-sessions__details .wordcamp-sessions__categories span:nth-of-type(2) {
+	background-color: var(--wp--preset--color--accent-2);
+}
+
+.single-wcb_speaker .wp-block-wordcamp-avatar,
+.single-wcb_speaker .wp-block-wordcamp-avatar img {
+	width: 150px !important;
+	height: 150px !important;
+}
+
+.single-wcb_speaker .wp-block-wordcamp-avatar img {
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
+	mask-size: 150px;
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
+
+.single-wcb_speaker .wp-block-image.aligncenter.size-full img,
+.single-wcb_session .wp-block-image.size-full img {
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
+	mask-size: 300px;
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
+
+.wp-block-image.sombra-patros img {
+	mask-image: none !important;
+}
+
+.single-wcb_session .wp-block-post-content p:last-of-type {
+	display: none;
+}
+
+/* TODO: Change page ID to the one used in the site GL and ES for ? session title */
+.postid-10170 h2,
+.postid-4781 h2 {
+	position: relative;
+}
+
+/* TODO: Change page ID to the one used in the site GL and ES for ? session title */
+.postid-10170 h2::before,
+.postid-4781 h2::before {
+	content: "¿";
+	background-color: var(--wp--preset--color--accent-4);
+	position: absolute;
+	transform: scale(-1, 1);
+}
+
+/* Schedule */
+.wp-block-wordcamp-schedule .wordcamp-schedule .is-column-time {
+	color: transparent;
+	font-size: 0 !important;
+}
+
+.wp-block-wordcamp-schedule .wordcamp-schedule .is-column-time:after {
+	content: "Horario";
+	color: var(--wp--preset--color--contrast);
+	font-size: 16px
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+/* Schedule Spanish, change texts */
+.page-id-3218 .wordcamp-schedule__date {
+	color: transparent;
+	font-size: 0 !important;
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-3218 .wordcamp-schedule__date::after {
+	color: var(--wp--preset--color--accent-4);
+	font-size: 48px
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2025-10-03"] .wordcamp-schedule__date::after {
+	content: '3 de octubre, 2025';
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2025-10-04"] .wordcamp-schedule__date::after {
+	content: '4 de octubre, 2025';
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2025-10-05"] .wordcamp-schedule__date::after {
+	content: '5 de octubre, 2025';
+}
+/* css tabla de horario de Programa de Do-action */
+.table-horario {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-family: sans-serif;
+}
+
+.table-horario th,
+.table-horario td {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.table-horario th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table-horario tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-horario tr:hover {
+  background-color: #eef;
+}
+/* Título de comienzo de los talleres */
+.table-horario .fila-destacada {
+  background-color: #dceeff;
+  font-weight: bold;
+  text-align: center;
+}
+/* css necesario para ocultar bloques de versiones de textos que varían en la página según calendario */
+.novisible {
+	display:none;
+}
+
+/* Organizers: GL: 126 - ES: 3275 */
+.page-id-126 .content-es,
+.page-id-3275 .content-gl {
+	display: none;
+}
+
+/* Customizer Juan */
+.tix_tickets_table.tix-tickets-list {
+	text-align: left;
+}
+
+.tix_tickets_table.tix-tickets-list th {
+	padding: 10px;
+}
+
+.tix-column-remaining, .tix-column-quantity {
+	text-align: center;
+}
+
+.tix-ticket-excerpt span {
+	color: #888;
+}
+
+.tix_tickets_table.tix-attendee-form td {
+	padding: 10px;
+}
+
+:where(.wp-site-blocks *:focus) {
+	outline-width:2px;
+	outline-style:solid;
+}
+
+.single-wcb_session .wp-block-image.size-full.header-no-mask img,
+.single-wcb_speaker .wp-block-image.size-full.header-no-mask img {
+	mask: none;
+}
