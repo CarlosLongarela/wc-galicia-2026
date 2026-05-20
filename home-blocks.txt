@@ -1,0 +1,269 @@
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:40px"><!-- wp:columns {"isStackedOnMobile":false} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"width":"33.34%"} -->
+<div class="wp-block-column" style="flex-basis:33.34%"><!-- wp:image {"id":290,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2026/files/2026/05/3dias.png" alt="" class="wp-image-290"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"33.34%"} -->
+<div class="wp-block-column" style="flex-basis:33.34%"><!-- wp:image {"id":292,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2026/files/2026/05/300-asist.png" alt="" class="wp-image-292"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:image {"id":291,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2026/files/2026/05/20-act.png" alt="" class="wp-image-291"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"0px","padding":{"top":"0px","bottom":"0px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group" style="padding-top:0px;padding-bottom:0px"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center","textTransform":"uppercase"}},"fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size" style="text-transform:uppercase">CONFERENCIAS, Networking E comida</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"x-large","fontFamily":"love-ya-like-a-sister"} -->
+<p class="has-accent-4-color has-text-color has-link-color has-love-ya-like-a-sister-font-family has-x-large-font-size">á galega</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:media-text {"mediaPosition":"right","mediaId":7912,"mediaLink":"https://galicia.wordcamp.org/2025/es/eneko-wordcamppontevedra2024/","mediaType":"image","mediaWidth":40,"mediaSizeSlug":"full","verticalAlignment":"center","style":{"spacing":{"margin":{"right":"0%","left":"0%"},"padding":{"top":"5%","bottom":"5%","left":"0%","right":"0%"}}}} -->
+<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-center" style="margin-right:0%;margin-left:0%;padding-top:5%;padding-right:0%;padding-bottom:5%;padding-left:0%;grid-template-columns:auto 40%"><div class="wp-block-media-text__content"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"textAlign":"left"}},"textColor":"accent-4","fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-text-align-left has-accent-4-color has-text-color has-link-color has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--20)">É a WordCamp para mín?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Inauguramos a <strong>primeira WordCamp Galicia </strong>con tres días centrados en <strong>WordPress como ferramenta fundamental para compartir e difundir coñecementos</strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vivimos nunha época na o acceso a calquera tipo de información nunca foi tan doado. E na que o desexo de adquirir novas habilidades ou reconvertirse, é moi grande. Por iso, queremos facer de <strong>enlace entre mestres e alumnos e amosar as posibilidades que ofrece WordPress en diferentes aspectos formativos</strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Reunir a perfís moi diversos nun lugar no que atoparás ferramentas, coñecementos e aliados cos que impulsar, potenciar, ou escalar o teu proxecto educativo. <strong>Vivirás unha experiencia única na que recargarte de enerxía, encherte de inspiración, e fortalecer a túa rede de contactos.</strong></p>
+<!-- /wp:paragraph --></div><figure class="wp-block-media-text__media"><img src="https://galicia.wordcamp.org/2025/files/2025/05/Eneko-WordCampPontevedra2024.webp" alt="Eneko Garrido" class="wp-image-7912 size-full"/></figure></div>
+<!-- /wp:media-text -->
+
+<!-- wp:media-text {"mediaId":7913,"mediaLink":"https://galicia.wordcamp.org/2025/es/nilo-wordcamppontevedra2024-comer/","mediaType":"image","mediaWidth":40,"verticalAlignment":"center","style":{"spacing":{"margin":{"right":"0%","left":"0%","bottom":"var:preset|spacing|40"},"padding":{"top":"0","bottom":"0","left":"0%","right":"0%"}}}} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center" style="margin-right:0%;margin-bottom:var(--wp--preset--spacing--40);margin-left:0%;padding-top:0;padding-right:0%;padding-bottom:0;padding-left:0%;grid-template-columns:40% auto"><figure class="wp-block-media-text__media"><img src="https://galicia.wordcamp.org/2025/files/2025/05/Nilo-WordCampPontevedra2024-Comer.webp" alt="Nilo Vélez" class="wp-image-7913 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Contido…","fontSize":"medium","fontFamily":"open-sans"} -->
+<p class="has-open-sans-font-family has-medium-font-size">Un punto de encontro aberto a todos os que queiran coñecer xente nun ambiente relaxado e festivo, compartir coñecementos e experiencias, e aprender os uns dos outros.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Se che gusta WordPress, tes un proxecto formativo, unha web, un blog no que compartas coñecementos, traballas en algo relacionado co mundo dixital, ou simplemente queres descubrir cómo é unha WordCamp, non te podes perder esta gran celebración.</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:group {"align":"full","style":{"dimensions":{"minHeight":"80px"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}},"background":{"backgroundImage":{"url":"https://galicia.wordcamp.org/2026/files/2026/05/onda-color-galicia.png","id":281,"source":"file","title":"onda-color-galicia"},"backgroundSize":"cover"}},"layout":{"type":"constrained","contentSize":"100%"}} -->
+<div class="wp-block-group alignfull" style="min-height:80px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Participa na WordCamp"},"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"0px","left":"0","right":"0"},"margin":{"top":"0px","bottom":"24px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"backgroundColor":"accent-4","textColor":"base-2","layout":{"type":"constrained","wideSize":"100%","contentSize":"1142px"}} -->
+<div class="wp-block-group alignfull has-base-2-color has-accent-4-background-color has-text-color has-background has-link-color" style="margin-top:0px;margin-bottom:24px;padding-top:0px;padding-right:0;padding-bottom:0px;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"8px","bottom":"8px"}}},"layout":{"type":"constrained","wideSize":"896px"}} -->
+<div class="wp-block-group" style="padding-top:8px;padding-bottom:8px"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}},"spacing":{"padding":{"top":"var:preset|spacing|30"}},"typography":{"textAlign":"center"}},"textColor":"accent-2"} -->
+<h2 class="wp-block-heading has-text-align-center has-accent-2-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--30)">Participa na WordCamp Galicia 2026</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"has-open-sans-font-family","style":{"typography":{"fontSize":"1.13rem","textAlign":"center"}}} -->
+<p class="has-text-align-center has-open-sans-font-family" style="font-size:1.13rem">WordCamp Galicia é un evento sen ánimo de lucro organizado por membros da Comunidade de WordPress en Galicia de xeito desinteresado.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"has-open-sans-font-family","style":{"typography":{"fontSize":"1.13rem","textAlign":"center"}}} -->
+<p class="has-text-align-center has-open-sans-font-family" style="font-size:1.13rem">Un percorrido de meses que <strong>non se podería levar a cabo sen a participación e colaboración de moitas persoas</strong> que se converten en pezas indispensables do noso equipamento.<br></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"bottom":"60px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-bottom:60px"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"0px","bottom":"0px"},"margin":{"top":"0","bottom":"0px"}}}} -->
+<div class="wp-block-columns alignwide" style="margin-top:0;margin-bottom:0px;padding-top:0px;padding-bottom:0px"><!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"0%","right":"0%"}}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-top:24px;padding-right:0%;padding-bottom:24px;padding-left:0%"><!-- wp:image {"id":293,"scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2026/files/2026/05/group-e1778441384433.png" alt="" class="wp-image-293" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textAlign":"center"},"spacing":{"padding":{"top":"0","bottom":"0"}}},"textColor":"base-2"} -->
+<h3 class="wp-block-heading has-text-align-center has-base-2-color has-text-color has-link-color" style="padding-top:0;padding-bottom:0;font-style:normal;font-weight:700">Patrocinadores</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"400","textAlign":"center"}}} -->
+<p class="has-text-align-center" style="font-size:18px;font-style:normal;font-weight:400">Axúdanos cos gastos do evento, e apoia o Open Source e os seus valores para que o noso ecosistema siga medrando.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:24px"><!-- wp:button {"backgroundColor":"base-2","textColor":"accent-4","className":"is-style-fill sombra-verde","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"border":{"radius":{"topLeft":"10px","topRight":"5px","bottomLeft":"5px","bottomRight":"10px"}},"spacing":{"padding":{"left":"24px","right":"24px","top":"8px","bottom":"8px"}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800"},"shadow":"var:preset|shadow|sharp"},"borderColor":"accent-3"} -->
+<div class="wp-block-button is-style-fill sombra-verde"><a class="wp-block-button__link has-accent-4-color has-base-2-background-color has-text-color has-background has-link-color has-border-color has-accent-3-border-color has-custom-font-size wp-element-button" href="https://galicia.wordcamp.org/2025/es/participar-como-patrocinador/" style="border-top-left-radius:10px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:10px;padding-top:8px;padding-right:24px;padding-bottom:8px;padding-left:24px;box-shadow:var(--wp--preset--shadow--sharp);font-size:16px;font-style:normal;font-weight:800">Participar</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"0%","right":"0%"}}}} -->
+<div class="wp-block-column" style="padding-top:24px;padding-right:0%;padding-bottom:24px;padding-left:0%"><!-- wp:image {"id":294,"scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2026/files/2026/05/group-1-1-e1778441449428.webp" alt="" class="wp-image-294" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textAlign":"center"}},"textColor":"base-2"} -->
+<h3 class="wp-block-heading has-text-align-center has-base-2-color has-text-color has-link-color" style="font-style:normal;font-weight:700">Relatores</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px","textAlign":"center"}}} -->
+<p class="has-text-align-center" style="font-size:18px">Inspira ou axuda a outras persoas amosando e compartindo a túa experiencia e coñecementos nun ambiente moi receptivo e participativo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:24px"><!-- wp:button {"backgroundColor":"base-2","textColor":"accent-4","className":"is-style-fill sombra-amarilla","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"border":{"radius":{"topLeft":"10px","topRight":"5px","bottomLeft":"5px","bottomRight":"10px"}},"spacing":{"padding":{"left":"24px","right":"24px","top":"8px","bottom":"8px"}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800"},"shadow":"var:preset|shadow|sharp"},"borderColor":"accent-3"} -->
+<div class="wp-block-button is-style-fill sombra-amarilla"><a class="wp-block-button__link has-accent-4-color has-base-2-background-color has-text-color has-background has-link-color has-border-color has-accent-3-border-color has-custom-font-size wp-element-button" href="https://galicia.wordcamp.org/2025/es/participar-como-ponente/" style="border-top-left-radius:10px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:10px;padding-top:8px;padding-right:24px;padding-bottom:8px;padding-left:24px;box-shadow:var(--wp--preset--shadow--sharp);font-size:16px;font-style:normal;font-weight:800">Participar</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"0%","right":"0%"}}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-top:24px;padding-right:0%;padding-bottom:24px;padding-left:0%"><!-- wp:image {"id":295,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2026/files/2026/05/group-2-e1778441570754.webp" alt="" class="wp-image-295"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textAlign":"center"}},"textColor":"base-2"} -->
+<h3 class="wp-block-heading has-text-align-center has-base-2-color has-text-color has-link-color" style="font-style:normal;font-weight:700">Voluntarios</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px","textAlign":"center"}}} -->
+<p class="has-text-align-center" style="font-size:18px">Bótanos unha man con algunhas tarefas, e coñece todo o que hai detrás dun evento así, coma un membro máis do noso equipo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:24px"><!-- wp:button {"backgroundColor":"base-2","textColor":"accent-4","className":"is-style-fill sombra-roja","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"border":{"radius":{"topLeft":"10px","topRight":"5px","bottomLeft":"5px","bottomRight":"10px"}},"spacing":{"padding":{"left":"24px","right":"24px","top":"8px","bottom":"8px"}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800"},"shadow":"var:preset|shadow|sharp"},"borderColor":"accent-3"} -->
+<div class="wp-block-button is-style-fill sombra-roja"><a class="wp-block-button__link has-accent-4-color has-base-2-background-color has-text-color has-background has-link-color has-border-color has-accent-3-border-color has-custom-font-size wp-element-button" href="https://galicia.wordcamp.org/2025/es/participar-como-voluntario/" style="border-top-left-radius:10px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:10px;padding-top:8px;padding-right:24px;padding-bottom:8px;padding-left:24px;box-shadow:var(--wp--preset--shadow--sharp);font-size:16px;font-style:normal;font-weight:800">Participar</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"24px","bottom":"40px","left":"0%","right":"0%"}}}} -->
+<div class="wp-block-column" style="padding-top:24px;padding-right:0%;padding-bottom:40px;padding-left:0%"><!-- wp:image {"id":296,"scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2026/files/2026/05/iconoasistentesmin-e1778441624618.webp" alt="" class="wp-image-296" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textAlign":"center"}},"textColor":"base-2"} -->
+<h3 class="wp-block-heading has-text-align-center has-base-2-color has-text-color has-link-color" style="font-style:normal;font-weight:700">Asistentes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px","textAlign":"center"}}} -->
+<p class="has-text-align-center" style="font-size:18px">Accede ás actividades, conecta cos demáis asistentes, repón forzas coa nosa comida tradicional, e faite co pack de benvida mercando a túa entrada.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"24px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:24px"><!-- wp:button {"backgroundColor":"base-2","textColor":"accent-4","className":"is-style-fill sombra-naranja","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"border":{"radius":{"topLeft":"10px","topRight":"5px","bottomLeft":"5px","bottomRight":"10px"}},"spacing":{"padding":{"left":"24px","right":"24px","top":"8px","bottom":"8px"}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"800"},"shadow":"var:preset|shadow|sharp"},"borderColor":"accent-3"} -->
+<div class="wp-block-button is-style-fill sombra-naranja"><a class="wp-block-button__link has-accent-4-color has-base-2-background-color has-text-color has-background has-link-color has-border-color has-accent-3-border-color has-custom-font-size wp-element-button" href="https://galicia.wordcamp.org/2025/es/entradas/" style="border-top-left-radius:10px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:10px;padding-top:8px;padding-right:24px;padding-bottom:8px;padding-left:24px;box-shadow:var(--wp--preset--shadow--sharp);font-size:16px;font-style:normal;font-weight:800">Participar</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:columns {"metadata":{"name":"Localizacion"},"style":{"spacing":{"blockGap":{"left":"10%"},"margin":{"top":"40px"},"padding":{"top":"24px","bottom":"24px"}}}} -->
+<div class="wp-block-columns" style="margin-top:40px;padding-top:24px;padding-bottom:24px"><!-- wp:column {"verticalAlignment":"top","width":"50%","layout":{"type":"constrained","contentSize":"1142px"}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4"} -->
+<h2 class="wp-block-heading has-accent-4-color has-text-color has-link-color">Localización</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"medium"} -->
+<p class="has-medium-font-size">La WordCamp Galicia se celebrará en la Facultad de Comunicación e el Campus de Pontevedra, de la Universidad de Vigo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"medium"} -->
+<p class="has-medium-font-size"><strong>Dirección:</strong> Campus Universitario da Xunqueira, s/n 36005 – Pontevedra</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:image {"lightbox":{"enabled":false},"id":2315,"sizeSlug":"full","linkDestination":"custom"} -->
+<figure class="wp-block-image size-full"><a href="https://www.google.com/maps?ll=42.440139,-8.637876&amp;z=15&amp;t=m&amp;hl=en&amp;gl=ES&amp;mapclient=embed&amp;cid=710842849256256857"><img src="https://galicia.wordcamp.org/2025/files/2024/04/mapa.jpg" alt="" class="wp-image-2315"/></a></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:group {"align":"full","style":{"dimensions":{"minHeight":"80px"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}},"background":{"backgroundImage":{"url":"https://galicia.wordcamp.org/2026/files/2026/05/separador.png","id":300,"source":"file","title":"separador"},"backgroundSize":"cover"}},"layout":{"type":"constrained","contentSize":"100%"}} -->
+<div class="wp-block-group alignfull" style="min-height:80px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Información"},"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"24px","left":"0","right":"0"},"margin":{"top":"0px","bottom":"0px"}},"color":{"background":"#ecf0f6"}},"layout":{"type":"constrained","wideSize":"100%","contentSize":"896px"}} -->
+<div class="wp-block-group alignfull has-background" style="background-color:#ecf0f6;margin-top:0px;margin-bottom:0px;padding-top:0px;padding-right:0;padding-bottom:24px;padding-left:0"><!-- wp:heading {"className":"con-interrogante","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"textAlign":"center"}},"textColor":"accent-4"} -->
+<h2 class="wp-block-heading has-text-align-center con-interrogante has-accent-4-color has-text-color has-link-color">&nbsp;Necesitas máis información?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}},"fontSize":"medium"} -->
+<p class="has-text-align-center has-medium-font-size">Se aínda non tes claro se este gran evento é para ti e precisas máis datos, podes consultar a seguinte información:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"style":{"spacing":{"padding":{"top":"24px","bottom":"24px"}}}} -->
+<div class="wp-block-columns" style="padding-top:24px;padding-bottom:24px"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:columns {"verticalAlignment":"top","isStackedOnMobile":false,"style":{"spacing":{"padding":{"right":"0px","left":"0px","top":"16px","bottom":"16px"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-top is-not-stacked-on-mobile" style="padding-top:16px;padding-right:0px;padding-bottom:16px;padding-left:0px"><!-- wp:column {"verticalAlignment":"top"} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"id":7710,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2025/files/2025/05/ico-evento-min.png" alt="" class="wp-image-7710"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"textAlign":"center"}},"textColor":"accent-4","fontSize":"large"} -->
+<h3 class="wp-block-heading has-text-align-center has-accent-4-color has-text-color has-link-color has-large-font-size"><a href="https://galicia.wordcamp.org/2025/es/actividades/" data-type="page" data-id="3253">Evento</a></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0px","bottom":"0px"}}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0px;padding-bottom:0px"><!-- wp:image {"lightbox":{"enabled":false},"id":7712,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2025/files/2025/05/ico-programa-min.png" alt="" class="wp-image-7712"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"textAlign":"center"}},"textColor":"accent-4"} -->
+<h3 class="wp-block-heading has-text-align-center has-accent-4-color has-text-color has-link-color"><a href="https://galicia.wordcamp.org/2025/es/programa/" data-type="page" data-id="3218">Programa</a></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"16px","bottom":"16px"}}}} -->
+<div class="wp-block-column" style="padding-top:16px;padding-bottom:16px"><!-- wp:columns {"isStackedOnMobile":false} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"lightbox":{"enabled":false},"id":7711,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2025/files/2025/05/ico-ludoteca-min.png" alt="" class="wp-image-7711"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"textAlign":"center"}},"textColor":"accent-4"} -->
+<h3 class="wp-block-heading has-text-align-center has-accent-4-color has-text-color has-link-color"><a href="https://galicia.wordcamp.org/2025/es/ludoteca/" data-type="page" data-id="3273">Ludoteca</a></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"lightbox":{"enabled":false},"id":7709,"sizeSlug":"full","linkDestination":"custom","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://galicia.wordcamp.org/2025/files/2025/05/ico-contacto-min.png" alt="" class="wp-image-7709"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"textAlign":"center"}},"textColor":"accent-4"} -->
+<h3 class="wp-block-heading has-text-align-center has-accent-4-color has-text-color has-link-color"><a href="https://galicia.wordcamp.org/2025/es/contacto/" data-type="page" data-id="3259">Contacto</a></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Noticias"},"style":{"spacing":{"margin":{"bottom":"80px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-bottom:80px"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"spacing":{"margin":{"top":"40px"}},"typography":{"textAlign":"center"}},"textColor":"accent-4"} -->
+<h2 class="wp-block-heading has-text-align-center has-accent-4-color has-text-color has-link-color" style="margin-top:40px">Últimas novas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"queryId":0,"query":{"perPage":"3","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"align":"wide","className":"cl-home-news","layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","width":"100%","height":"max(15vw, 30vh)","scale":"contain","align":"wide","style":{"border":{"width":"0px","style":"none","radius":"0px"}}} /-->
+
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /-->
+
+<!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"fontSize":"24px","fontStyle":"normal","fontWeight":"700"},"spacing":{"padding":{"right":"2%","left":"2%"}}},"textColor":"accent-4","fontFamily":"open-sans"} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"right"}}} -->
+<p class="has-text-align-right"><strong><a href="https://galicia.wordcamp.org/2025/es/noticias/" data-type="page" data-id="3337">Ver todas las noticias &gt;&gt;</a></strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
