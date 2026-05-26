@@ -14,3 +14,9 @@
 
 Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.php?action=wcrcss_webhook
 */
+
+.single-post .wp-block-post-featured-image .wp-post-image {
+    mask-image: url('https://galicia.wordcamp.org/2026/files/2026/05/mascara-entrada-blog.png');
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
