@@ -20,3 +20,11 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     mask-repeat: no-repeat;
     mask-position: center;
 }
+
+/* Invertir interrogante para apertura */
+.con-interrogante strong {
+	font-weight: normal;
+	display: inline-block;
+	transform: scale(-1,1);
+	margin-right: 5px;
+}
