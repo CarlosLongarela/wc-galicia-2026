@@ -19,6 +19,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     mask-image: url('https://galicia.wordcamp.org/2026/files/2026/05/mascara-entrada-blog-single.png');
     mask-repeat: no-repeat;
     mask-position: center;
+    mask-size: max(950px, 100%);
 }
 
 /* Invertir interrogante para apertura */
