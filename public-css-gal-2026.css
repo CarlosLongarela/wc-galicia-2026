@@ -16,7 +16,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 */
 
 .single-post .wp-block-post-featured-image .wp-post-image {
-    mask-image: url('https://galicia.wordcamp.org/2026/files/2026/05/mascara-entrada-blog.png');
+    mask-image: url('https://galicia.wordcamp.org/2026/files/2026/05/mascara-entrada-blog-single.png');
     mask-repeat: no-repeat;
     mask-position: center;
 }
@@ -48,8 +48,8 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 /* Estilos del box de suscripción */
 .wp-block-jetpack-subscriptions__form-elements.wp-block-jetpack-subscriptions__form-elements.wp-block-jetpack-subscriptions__form-elements input {
     background-color: var(--wp--preset--color--base-2);
-    color: var(--wp--preset--color--accent-4);
-
+    color: var(--wp--preset--color--accent-4) !important;
+    opacity: 1 !important;
 }
 
 .wp-block-jetpack-subscriptions__form-elements.wp-block-jetpack-subscriptions__form-elements.wp-block-jetpack-subscriptions__form-elements input::placeholder {
