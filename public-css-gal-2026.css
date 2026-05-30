@@ -66,12 +66,12 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 
 /* Sombra fotos 1 */
 .wcgal-path1 {
-    filter: drop-shadow(8px 10px 18px rgba(0, 100, 200, 0.5));
+    filter: drop-shadow(6px 8px 0px rgba(0, 100, 200, 0.85));
     display: inline-block; /* necesario si el padre es inline */
 }
 
 .wcgal-path1 img {
-    clip-path: path('M0.0469,20.1639 C0.0469,20.1639 -2.9436,429.7227 38.8368,442.8395 C80.6169,455.9688 504.3687,469.0983 522.2684,442.8395 C540.1788,416.593 519.2887,22.7974 495.4189,9.6681 C471.5491,-3.4615 11.9872,-6.0823 0.0469,20.1639 Z');
+    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
 }
 
 @media screen and (max-width: 781px) {
