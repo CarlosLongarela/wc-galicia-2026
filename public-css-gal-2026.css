@@ -72,26 +72,20 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     align-self: flex-start; /* evita estirar en flex/grid */
 }
 
-.wcgal-path1 img,
-.wcgal-path1 picture img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    clip-path: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3CclipPath id='wcgal-path1' clipPathUnits='objectBoundingBox'%3E%3Cpath d='M0.0055,0.0552 C0.0055,0.0552 0,0.9175 0.0769,0.9448 C0.1538,0.9727 0.9341,1 0.967,0.9448 C1,0.8895 0.9615,0.0608 0.9176,0.0331 C0.8736,0.0055 0.0275,0 0.0055,0.0552Z'/%3E%3C/clipPath%3E%3C/svg%3E#wcgal-path1");
-}
-
 /* Misma forma, clase en el bloque Media & Text (no en el figure) */
 .wcgal-path1-media .wp-block-media-text__media {
     filter: drop-shadow(12px 8px 0px rgba(0, 100, 200, 0.85));
 }
 
+.wcgal-path1 img,
+.wcgal-path1 picture img,
 .wcgal-path1-media .wp-block-media-text__media img,
 .wcgal-path1-media .wp-block-media-text__media picture img {
     display: block;
     width: 100%;
     height: auto;
     max-width: 100%;
+    /* No usar var() aquí: WP/sanitizadores y algunos navegadores rompen url() en custom properties para clip-path */
     clip-path: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3CclipPath id='wcgal-path1' clipPathUnits='objectBoundingBox'%3E%3Cpath d='M0.0055,0.0552 C0.0055,0.0552 0,0.9175 0.0769,0.9448 C0.1538,0.9727 0.9341,1 0.967,0.9448 C1,0.8895 0.9615,0.0608 0.9176,0.0331 C0.8736,0.0055 0.0275,0 0.0055,0.0552Z'/%3E%3C/clipPath%3E%3C/svg%3E#wcgal-path1");
 }
 
