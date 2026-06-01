@@ -64,28 +64,63 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     font-weight: 700;
 }
 
-/* Sombra fotos 1 — path en px (620×353); wcrcss no permite data: URIs en clip-path */
+/* Sombra fotos 1 — path 620×353
+   wcrcss elimina border-box y data: URIs en clip-path.
+   Subir assets/wcgal-path1.png a la mediateca; mask-image escala en grid/flex. */
 .wcgal-path1 {
     filter: drop-shadow(12px 8px 0px rgba(0, 100, 200, 0.85));
     display: inline-block; /* necesario si el padre es inline */
+    width: fit-content;
     max-width: 100%;
-    align-self: flex-start; /* evita estirar en flex/grid */
+    align-self: flex-start;
+    justify-self: start;
+    overflow: visible;
 }
 
-/* Misma forma, clase en el bloque Media & Text (no en el figure) */
+.wcgal-path1-media {
+    overflow: visible;
+}
+
 .wcgal-path1-media .wp-block-media-text__media {
     filter: drop-shadow(12px 8px 0px rgba(0, 100, 200, 0.85));
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+    align-self: start;
+    justify-self: start;
+    overflow: visible;
 }
 
 .wcgal-path1 img,
-.wcgal-path1 picture img,
-.wcgal-path1-media .wp-block-media-text__media img,
-.wcgal-path1-media .wp-block-media-text__media picture img {
+.wcgal-path1 picture img {
     display: block;
     width: 100%;
     height: auto;
     max-width: 100%;
     clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
+}
+
+/* Grid/flex y Media & Text: mask PNG escala (subir assets/wcgal-path1.png).
+   clip-path de respaldo hasta que la URL del PNG exista en producción. */
+.wcgal-path1-media .wp-block-media-text__media img,
+.wcgal-path1-media .wp-block-media-text__media picture img,
+.is-layout-flex .wcgal-path1 img,
+.is-layout-flex .wcgal-path1 picture img,
+.is-layout-grid .wcgal-path1 img,
+.is-layout-grid .wcgal-path1 picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
+    -webkit-mask-image: url('https://galicia.wordcamp.org/2026/files/2026/06/wcgal-path1.png');
+    mask-image: url('https://galicia.wordcamp.org/2026/files/2026/06/wcgal-path1.png');
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
 }
 
 @media screen and (max-width: 781px) {
