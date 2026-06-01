@@ -64,14 +64,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     font-weight: 700;
 }
 
-/* Sombra fotos 1 — capa sólida desplazada (no drop-shadow: solo sigue el borde del clip) */
-.wcgal-path1,
-.wp-block-media-text__media.wcgal-path1 {
-    --wcgal-path1-clip: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
-    --wcgal-path1-offset-x: 12px;
-    --wcgal-path1-offset-y: 8px;
-}
-
+/* Sombra fotos 1 — capa sólida desplazada (valores literales: el import CSS del multisite elimina --custom props) */
 /* Contenedor de la imagen (figura Media & Text o wrapper genérico) */
 .wcgal-path1:not(.wp-block-media-text),
 .wcgal-path1 .wp-block-media-text__media,
@@ -82,8 +75,8 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     width: fit-content;
     max-width: 100%;
     overflow: visible;
-    padding-right: var(--wcgal-path1-offset-x);
-    padding-bottom: var(--wcgal-path1-offset-y);
+    padding-right: 12px;
+    padding-bottom: 8px;
 }
 
 .wp-block-media-text.wcgal-path1 {
@@ -99,8 +92,8 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     inset: 0;
     z-index: 0;
     background-color: #fbaf00;
-    clip-path: var(--wcgal-path1-clip);
-    transform: translate(var(--wcgal-path1-offset-x), var(--wcgal-path1-offset-y));
+    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
+    transform: translate(12px, 8px);
     pointer-events: none;
 }
 
@@ -112,7 +105,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     display: block;
     width: 100%;
     height: auto;
-    clip-path: var(--wcgal-path1-clip);
+    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
 }
 
 @media screen and (max-width: 781px) {
