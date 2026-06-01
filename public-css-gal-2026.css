@@ -64,10 +64,10 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     font-weight: 700;
 }
 
-/* Sombra fotos 1 — path escalable (620×353 original) */
+/* Sombra fotos 1 — path en px (620×353); wcrcss no permite data: URIs en clip-path */
 .wcgal-path1 {
     filter: drop-shadow(12px 8px 0px rgba(0, 100, 200, 0.85));
-    display: inline-block;
+    display: inline-block; /* necesario si el padre es inline */
     max-width: 100%;
     align-self: flex-start; /* evita estirar en flex/grid */
 }
@@ -85,8 +85,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     width: 100%;
     height: auto;
     max-width: 100%;
-    /* No usar var() aquí: WP/sanitizadores y algunos navegadores rompen url() en custom properties para clip-path */
-    clip-path: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3CclipPath id='wcgal-path1' clipPathUnits='objectBoundingBox'%3E%3Cpath d='M0.0055,0.0552 C0.0055,0.0552 0,0.9175 0.0769,0.9448 C0.1538,0.9727 0.9341,1 0.967,0.9448 C1,0.8895 0.9615,0.0608 0.9176,0.0331 C0.8736,0.0055 0.0275,0 0.0055,0.0552Z'/%3E%3C/clipPath%3E%3C/svg%3E#wcgal-path1");
+    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
 }
 
 @media screen and (max-width: 781px) {
