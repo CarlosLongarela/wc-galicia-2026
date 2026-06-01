@@ -128,7 +128,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
         max-height: 260px;
     }
 
-    .subscribe-submit {
+    #subscribe-submit {
         width: 50% !important;
     }
 }
