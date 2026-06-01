@@ -64,48 +64,52 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     font-weight: 700;
 }
 
-/* Sombra fotos 1 — capa sólida desplazada (valores literales: el import CSS del multisite elimina --custom props) */
-/* Contenedor de la imagen (figura Media & Text o wrapper genérico) */
-.wcgal-path1:not(.wp-block-media-text),
-.wcgal-path1 .wp-block-media-text__media,
-.wp-block-media-text__media.wcgal-path1,
-.wp-block-media-text.wcgal-path1 .wp-block-media-text__media {
+/* Sombra fotos 1 — mismo patrón que wp-block-image; border-box escala el path a cualquier tamaño */
+.wcgal-path1:not(.wp-block-media-text) {
     position: relative;
-    display: block;
-    width: fit-content;
+    display: inline-block;
     max-width: 100%;
     overflow: visible;
     padding-right: 12px;
     padding-bottom: 8px;
 }
 
-.wp-block-media-text.wcgal-path1 {
-    overflow: visible;
-}
-
 .wcgal-path1:not(.wp-block-media-text)::before,
-.wcgal-path1 .wp-block-media-text__media::before,
-.wp-block-media-text__media.wcgal-path1::before,
 .wp-block-media-text.wcgal-path1 .wp-block-media-text__media::before {
     content: "";
     position: absolute;
     inset: 0;
     z-index: 0;
     background-color: #fbaf00;
-    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
+    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z', nonzero, border-box);
     transform: translate(12px, 8px);
     pointer-events: none;
 }
 
-.wcgal-path1 img,
-.wcgal-path1 .wp-block-media-text__media img,
-.wp-block-media-text.wcgal-path1 .wp-block-media-text__media img {
+.wcgal-path1 img {
     position: relative;
     z-index: 1;
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
+    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z', nonzero, border-box);
+}
+
+/* Media & Text: ideal poner wcgal-path1 en el figure; si está en el bloque, la sombra va al __media */
+.wp-block-media-text.wcgal-path1,
+.wp-block-media-text .wp-block-media-text__media.wcgal-path1 {
+    overflow: visible;
+}
+
+.wp-block-media-text.wcgal-path1 .wp-block-media-text__media,
+.wp-block-media-text .wp-block-media-text__media.wcgal-path1 {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+    align-self: start;
+    padding-right: 12px;
+    padding-bottom: 8px;
 }
 
 @media screen and (max-width: 781px) {
