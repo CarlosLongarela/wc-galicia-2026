@@ -74,6 +74,37 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
 }
 
+/*
+ * Media & Text: poner wcgal-path1 en el figure (wp-block-media-text__media).
+ * El grid estira el figure; la foto suele ser más estrecha que 620px y el path
+ * en px fijos pierde las esquinas derechas → border-box escala la forma al img.
+ */
+.wp-block-media-text.wcgal-path1 .wp-block-media-text__media,
+.wp-block-media-text__media.wcgal-path1 {
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+    align-self: start;
+    justify-self: start;
+    overflow: visible;
+}
+
+.wp-block-media-text.wcgal-path1 {
+    filter: none;
+    display: block;
+    overflow: visible;
+}
+
+.wp-block-media-text.wcgal-path1 .wp-block-media-text__media {
+    filter: drop-shadow(12px 8px 0px rgba(0, 100, 200, 0.85));
+}
+
+.wp-block-media-text .wcgal-path1 img,
+.wp-block-media-text.wcgal-path1 .wp-block-media-text__media img,
+.wp-block-media-text__media.wcgal-path1 img {
+    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z', nonzero, border-box);
+}
+
 @media screen and (max-width: 781px) {
     .single-post .wp-block-post-featured-image {
         max-height: 260px;
