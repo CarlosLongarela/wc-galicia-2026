@@ -64,14 +64,55 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     font-weight: 700;
 }
 
-/* Sombra fotos 1 */
-.wcgal-path1 {
-    filter: drop-shadow(12px 8px 0px rgba(0, 100, 200, 0.85));
-    display: inline-block; /* necesario si el padre es inline */
+/* Sombra fotos 1 — capa sólida desplazada (no drop-shadow: solo sigue el borde del clip) */
+.wcgal-path1,
+.wp-block-media-text__media.wcgal-path1 {
+    --wcgal-path1-clip: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
+    --wcgal-path1-offset-x: 12px;
+    --wcgal-path1-offset-y: 8px;
 }
 
-.wcgal-path1 img {
-    clip-path: path('M3.41,19.5 C3.41,19.5 0.0,323.76 47.7,333.5 C95.38,343.25 579.12,353.0 599.56,333.5 C620.0,314.0 596.16,21.46 568.9,11.7 C541.66,1.95 17.05,0.0 3.41,19.5 Z');
+/* Contenedor de la imagen (figura Media & Text o wrapper genérico) */
+.wcgal-path1:not(.wp-block-media-text),
+.wcgal-path1 .wp-block-media-text__media,
+.wp-block-media-text__media.wcgal-path1,
+.wp-block-media-text.wcgal-path1 .wp-block-media-text__media {
+    position: relative;
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    overflow: visible;
+    padding-right: var(--wcgal-path1-offset-x);
+    padding-bottom: var(--wcgal-path1-offset-y);
+}
+
+.wp-block-media-text.wcgal-path1 {
+    overflow: visible;
+}
+
+.wcgal-path1:not(.wp-block-media-text)::before,
+.wcgal-path1 .wp-block-media-text__media::before,
+.wp-block-media-text__media.wcgal-path1::before,
+.wp-block-media-text.wcgal-path1 .wp-block-media-text__media::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-color: #fbaf00;
+    clip-path: var(--wcgal-path1-clip);
+    transform: translate(var(--wcgal-path1-offset-x), var(--wcgal-path1-offset-y));
+    pointer-events: none;
+}
+
+.wcgal-path1 img,
+.wcgal-path1 .wp-block-media-text__media img,
+.wp-block-media-text.wcgal-path1 .wp-block-media-text__media img {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    clip-path: var(--wcgal-path1-clip);
 }
 
 @media screen and (max-width: 781px) {
