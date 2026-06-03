@@ -132,3 +132,18 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
         width: 50% !important;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .wp-block-jetpack-subscriptions__form-elements {
+        display: block !important;
+    }
+
+    .wp-block-jetpack-subscriptions__form-elements #subscribe-submit {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+
+    .wp-block-jetpack-subscriptions__form-elements #subscribe-submit button {
+        margin-left: auto !important;
+    }
+}
