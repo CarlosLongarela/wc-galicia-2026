@@ -145,5 +145,6 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 
     .wp-block-jetpack-subscriptions__form-elements #subscribe-submit button {
         margin-left: auto !important;
+        width: 100% !important;
     }
 }
