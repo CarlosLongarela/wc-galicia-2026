@@ -162,3 +162,60 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
         width: 100% !important;
     }
 }
+
+/* Attendees */
+#tix-attendees {
+	margin-top: 3em;
+	margin-bottom: 6em;
+}
+
+#tix-attendees .tix-attendee-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#tix-attendees .tix-attendee-list li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: auto;
+}
+
+#tix-attendees .tix-attendee-list li .avatar {
+	width: 130px;
+	height: 130px;
+	float: initial;
+}
+
+#tix-attendees .tix-attendee-list li .tix-attendee-name {
+	text-align: center;
+	margin-inline: auto;
+	max-width: 150px;
+	font-family: var(--wp--preset--font-family--love-ya-like-a-sister);
+	color: var(--wp--preset--color--accent-4);
+	font-size: 1.2em;
+	line-height: 1.2;
+	margin-top: 1em;
+}
+
+.avatar {
+	mask-image: url("https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png");
+	mask-size: 130px;
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
+
+#tix-attendees .tix-attendee-list li:nth-of-type(even) .avatar {
+	mask-image: url("https://galicia.wordcamp.org/2026/files/2026/06/mask-cuadrado-2.png");
+}
+
+@media screen and (max-width: 850px) {
+	#tix-attendees .tix-attendee-list {
+		flex-wrap: wrap;
+	}
+
+	#tix-attendees .tix-attendee-list li {
+		width: 100%;
+	}
+}
