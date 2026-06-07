@@ -237,3 +237,8 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 .tix_tickets_table td {
     text-align: center;
 }
+
+.tix_tickets_table td,
+.tix_tickets_table th {
+    padding-right: 10px;
+}
