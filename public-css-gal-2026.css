@@ -233,3 +233,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 #tix input[type="submit"]:hover {
 	background-color: var(--wp--preset--color--accent-3);
 }
+
+.tix_tickets_table td {
+    text-align: center;
+}
