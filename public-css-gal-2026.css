@@ -219,3 +219,17 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 		width: 100%;
 	}
 }
+
+#tix input[type="submit"] {
+	background-color: var(--wp--preset--color--accent-4);
+	color: var(--wp--preset--color--base-2);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-3) !important;
+}
+
+#tix input[type="submit"]:hover {
+	background-color: var(--wp--preset--color--accent-3);
+}
