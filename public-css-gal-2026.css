@@ -242,3 +242,14 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 .tix_tickets_table th {
     padding-right: 10px;
 }
+
+.entradas-button {
+    background-color: var(--wp--preset--color--white);
+    color: var(--wp--preset--color--accent-4);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px 5px 10px 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4) !important;
+    display: none !important;
+}
