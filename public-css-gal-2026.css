@@ -244,7 +244,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 }
 
 .entradas-button {
-    background-color: var(--wp--preset--color--white);
+    background-color: var(--wp--preset--color--white) !important;
     color: var(--wp--preset--color--accent-4);
     border: none;
     padding: 10px 20px;
