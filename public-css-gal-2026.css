@@ -241,6 +241,9 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 }
 
 /* Camptix block - tickets page */
+#tix h2 {
+    color: var(--wp--preset--color--accent-4);
+}
 .tix-js {
 	font-size: 1.05em;
 	line-height: 1.5;
