@@ -253,3 +253,221 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4) !important;
     display: none !important;
 }
+
+/* Camptix block - tickets page */
+.tix-js {
+	font-size: 1.05em;
+	line-height: 1.5;
+}
+
+.tix_tickets_table {
+	border-spacing: 0;
+	border-collapse: separate;
+	width: 100%;
+	background: #fff;
+	border: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+	border-radius: 16px 3px;
+	overflow: hidden;
+}
+
+.tix-js .tix_tickets_table th,
+.tix-js .tix_tickets_table td {
+	padding: 14px 16px;
+}
+
+.tix-js .tix_tickets_table thead th {
+	background: color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 6%, #fff);
+	border-bottom: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+	color: #111;
+	font-weight: 700;
+}
+
+.tix-js .tix_tickets_table tbody th,
+.tix-js .tix_tickets_table tbody td {
+	border-bottom: 1px solid color-mix(in srgb,
+		color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000) 60%,
+		#0000);
+	text-align: center;
+}
+
+.tix-js .tix_tickets_table tbody th,
+.tix-js .tix_tickets_table th.tix-column-description {
+	text-align: left;
+}
+
+.tix-js .tix_tickets_table tbody .tix-ticket-title {
+	font-weight: 800;
+	letter-spacing: .01em;
+}
+
+.tix-js .tix_tickets_table .tix-ticket-excerpt {
+	color: color-mix(in srgb, #000 55%, #0000);
+}
+
+.tix-js .tix_tickets_table tbody .tix-column-price,
+.tix-js .tix_tickets_table tbody .tix-column-remaining {
+	font-weight: 800;
+	color: color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 65%, #111);
+}
+
+.tix_tickets_table input[type="text"],
+.tix_tickets_table input[type="url"],
+.tix_tickets_table input[type="email"],
+.tix_tickets_table select,
+.tix_tickets_table textarea {
+	font-size: 1em;
+	width: 90%;
+	max-width: 100%;
+	border: 1px solid color-mix(in srgb,
+		color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000) 55%,
+		#0000);
+	border-radius: 12px;
+	padding: 10px 12px;
+	background: #fff;
+	transition: border-color .15s ease, box-shadow .15s ease;
+	box-sizing: border-box;
+}
+
+.tix_tickets_table textarea {
+	height: 5em;
+	resize: vertical;
+}
+
+.tix_tickets_table input[type="text"]:focus,
+.tix_tickets_table input[type="url"]:focus,
+.tix_tickets_table input[type="email"]:focus,
+.tix_tickets_table select:focus,
+.tix_tickets_table textarea:focus {
+	outline: none;
+	border-color: color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 55%, #0000);
+	box-shadow: 0 0 0 4px color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+}
+
+.tix-js .tix_tickets_table tbody .tix-column-quantity select {
+	padding: 10px 12px;
+}
+
+.tix-js .tix_tickets_table.tix-order-summary {
+	margin-top: 2rem;
+}
+
+.tix-js .tix_tickets_table.tix-order-summary .tix-row-total td:last-child {
+	border-top: 2px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+	font-weight: 800;
+}
+
+.tix-js .tix_tickets_table.tix-order-summary tbody th,
+.tix-js .tix_tickets_table.tix-attendee-form tbody th,
+.tix-js .tix_tickets_table.tix-order-summary tbody td,
+.tix-js .tix_tickets_table.tix-attendee-form tbody td {
+	border: none;
+	padding: 10px 16px;
+}
+
+.tix-js .tix_tickets_table.tix-attendee-form .tix-left {
+	text-align: right;
+	padding-right: .75em;
+	width: 40%;
+	color: #111;
+	font-weight: 650;
+}
+
+.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+	text-align: left;
+	padding-inline: .75em !important;
+	width: 60%;
+}
+
+.tix-js .tix_tickets_table.tix-attendee-form .tix-left,
+.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+	padding-top: 1.1em;
+}
+
+.tix-js .tix_tickets_table.tix-attendee-form .tix-row-health-advisory .tix-left {
+	text-align: left;
+}
+
+.tix-js .tix_tickets_table.tix-attendee-form .tix-row-health-advisory .tix-left p {
+	margin-bottom: 1em;
+}
+
+.tix-js .tix_tickets_table.tix--form .tix-row-health-advisory .tix-left::after {
+	content: none;
+}
+
+.tix-js .camptix-invoice-toggle-wrapper {
+	display: block;
+	margin: 2rem 0;
+	padding: 1rem 1.1rem;
+	border: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+	border-radius: 16px;
+	background: color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 6%, #fff);
+}
+
+.tix-js .camptix-invoice-toggle-wrapper label {
+	font-weight: 800;
+}
+
+.tix-js .camptix-invoice-toggle-wrapper table label {
+	font-weight: 500;
+}
+
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details {
+	width: 100%;
+	margin: 1rem 0 0;
+}
+
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details td {
+	border: none;
+}
+
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left {
+	text-align: right;
+	padding-right: .75em;
+	width: 40%;
+	font-weight: 650;
+}
+
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-right {
+	text-align: left;
+	padding-left: .75em;
+	width: 60%;
+}
+
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left,
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-right {
+	padding-top: 1.1em;
+	vertical-align: bottom;
+}
+
+.tix-js #tix-coupon-input {
+	font-size: 1.1rem;
+	padding: 12px 14px;
+	border-radius: 12px;
+	border: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+}
+
+.tix-js .tix-submit {
+	display: block;
+	margin-bottom: 3em;
+}
+
+.tix-js input[type="submit"] {
+	cursor: pointer;
+}
+
+#tix input[type=submit],
+.tix-checkout-button {
+	box-shadow: var(--wp--preset--shadow--shadow-2);
+	background-color: var(--wp--preset--color--accent);
+	color: var(--wp--preset--color--white);
+	border-radius: 25px 3px 25px 3px !important;
+	letter-spacing: .05em !important;
+	font-weight: 700;
+	font-family: var(--wp--preset--font-family--lato);
+	padding-block: .6em .3em .8em !important;
+	font-size: 20px;
+	padding-inline: 1em;
+	border: none;
+	text-transform: capitalize;
+}
