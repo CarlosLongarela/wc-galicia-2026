@@ -164,7 +164,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 }
 
 .wpgal-ocultar {
-	display: none;
+	display: none !important;
 }
 
 /* Attendees */
