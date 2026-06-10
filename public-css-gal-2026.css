@@ -241,7 +241,6 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     border-radius: 10px 5px 10px 5px;
     cursor: pointer;
     box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-4) !important;
-    display: none !important;
 }
 
 /* Camptix block - tickets page */
