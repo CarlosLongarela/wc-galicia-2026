@@ -216,7 +216,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 }
 
 #tix-attendees .tix-attendee-list li:nth-of-type(even) .avatar {
-	mask-image: url("https://galicia.wordcamp.org/2026/files/2026/06/mask-cuadrado-2.png");
+	mask-image: url("https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado-2.png");
 }
 
 @media screen and (max-width: 850px) {
