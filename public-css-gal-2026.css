@@ -182,6 +182,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	padding-left: 0;
 }
 
 #tix-attendees .tix-attendee-list li {
@@ -225,7 +226,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 	}
 
 	#tix-attendees .tix-attendee-list li {
-		width: 100%;
+		width: 50%;
 	}
 }
 
@@ -249,6 +250,9 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 }
 
 /* Camptix block - tickets page */
+#tix {
+	margin-bottom: 4rem;
+}
 #tix h2 {
     color: var(--wp--preset--color--accent-4);
 }
@@ -467,4 +471,65 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     text-transform: capitalize;
     border-radius: 10px 5px 10px 5px;
     box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-3) !important;
+}
+
+/* Camptix tickets table — mobile card layout */
+@media screen and (max-width: 600px) {
+	.tix-js .tix_tickets_table thead {
+		display: none;
+	}
+
+	.tix-js .tix_tickets_table tbody tr[class*="tix-ticket-"] {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 4px 12px;
+		padding: 14px 16px;
+		align-items: center;
+	}
+
+	.tix-js .tix_tickets_table tbody tr[class*="tix-ticket-"] > th,
+	.tix-js .tix_tickets_table tbody tr[class*="tix-ticket-"] > td {
+		border: none;
+		padding: 0;
+	}
+
+	.tix-js .tix_tickets_table tbody .tix-column-description {
+		grid-column: 1 / -1;
+		text-align: left;
+		padding-bottom: 6px;
+	}
+
+	.tix-js .tix_tickets_table tbody .tix-column-price,
+	.tix-js .tix_tickets_table tbody .tix-column-remaining {
+		text-align: left;
+	}
+
+	.tix-js .tix_tickets_table tbody .tix-column-price::before {
+		content: "Prezo: ";
+	}
+
+	.tix-js .tix_tickets_table tbody .tix-column-remaining::before {
+		content: "Quedan: ";
+	}
+
+	.tix-js .tix_tickets_table tbody .tix-column-price::before,
+	.tix-js .tix_tickets_table tbody .tix-column-remaining::before {
+		font-weight: 600;
+		color: #111;
+	}
+
+	.tix-js .tix_tickets_table tbody .tix-column-quantity {
+		grid-column: 1 / -1;
+		padding-top: 8px;
+	}
+
+	.tix-js .tix_tickets_table tbody .tix-column-quantity select {
+		width: 100%;
+	}
+
+	.tix-js .tix_tickets_table tr.tix-row-coupon td {
+		display: block;
+		text-align: left !important;
+		padding: 14px 16px;
+	}
 }
