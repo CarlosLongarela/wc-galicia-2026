@@ -532,4 +532,55 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 		text-align: left !important;
 		padding: 14px 16px;
 	}
+
+	/* Attendee form — stacked label + field */
+	.tix-js .tix_tickets_table.tix-attendee-form tbody tr > th[colspan] {
+		display: block;
+		text-align: left;
+		padding: 16px 16px 8px;
+		font-size: 1.1em;
+	}
+
+	.tix-js .tix_tickets_table.tix-attendee-form tbody tr[class*="tix-row-"] {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 6px;
+		padding: 14px 16px;
+		border-bottom: 1px solid color-mix(in srgb, var(--wp--preset--color--accent-4, #6a478d) 18%, #0000);
+	}
+
+	.tix-js .tix_tickets_table.tix-attendee-form tbody tr[class*="tix-row-"] > td {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-left {
+		text-align: left;
+		padding-right: 0;
+		width: 100%;
+	}
+
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+		text-align: left;
+		padding-inline: 0 !important;
+		width: 100%;
+	}
+
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-left,
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+		padding-top: 0;
+	}
+
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right input[type="text"],
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right input[type="email"],
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right input[type="url"],
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right select,
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right textarea {
+		width: 100%;
+	}
+
+	.tix-js .tix_tickets_table.tix-attendee-form .tix-right fieldset label {
+		display: block;
+	}
 }
