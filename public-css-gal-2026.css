@@ -734,6 +734,13 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 	flex-wrap: wrap;
 }
 
+.wordcamp-schedule .wordcamp-schedule__date
+{
+    font-size: 38px;
+    color: var(--wp--preset--color--accent-4);
+    font-family: 'Love Ya Like A Sister';
+}
+
 /*** Speakers ***/
 .single-wcb_speaker .wordcamp-sessions__title {
 	margin-top: 0;
