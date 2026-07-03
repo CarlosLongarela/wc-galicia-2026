@@ -584,3 +584,8 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 		display: block;
 	}
 }
+
+/* Schedule */
+.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.is-empty {
+	display: none;
+}
