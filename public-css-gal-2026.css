@@ -622,8 +622,9 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title,
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title a {
 	color: var(--wp--preset--color--accent-4);
-	font-size: 32px;
+	font-size: 26px;
 	font-weight: 700;
+	line-height: 1.2;
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session,
