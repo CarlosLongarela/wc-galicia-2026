@@ -723,10 +723,15 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 	mask-position: center;
 }
 
-.taxonomy-wcb_session_category a,
-.wp-block-wordcamp-session-speakers__name a,
-.wp-block-wordcamp-session-date time {
+.wcb_session-template .taxonomy-wcb_session_category a,
+.wcb_session-template .wp-block-wordcamp-session-speakers__name a,
+.wcb_session-template .wp-block-wordcamp-session-date time {
 	font-size: .9rem !important;
+}
+
+.wcgal-wrap-categories {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 /*** Speakers ***/
