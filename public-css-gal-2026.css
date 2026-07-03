@@ -801,26 +801,3 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 	display: none;
 }
 
-.wordcamp-schedule .wordcamp-schedule__date
-{
-    font-size: 38px;
-    color: var(--wp--preset--color--accent-4);
-    font-family: 'Love Ya Like A Sister';
-}
-
-.wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title, .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-title a {
-    color: var(--wp--preset--color--accent-4);
-    font-size: 25px;
-    font-weight: 700;
-}
-
-body.single-wcb_speaker {
-  text-align:center;
-  margin: 30px 0px 20px;
-}
-body.wcb_session-template {
-  text-align:center;
-  margin: 30px 0px 20px;
-  font-size: clamp(38.682px, 2.418rem + ((1vw - 3.2px) * 4.063), 52px);
-  line-height:1.2;
-}
