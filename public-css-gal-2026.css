@@ -660,7 +660,7 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 }
 
 .wordcamp-schedule .wordcamp-schedule__day .wordcamp-schedule__session .wordcamp-schedule__session-category dd+dd {
-	background-color: #ffd639;
+	background-color: #ff4c00;
 	color: var(--wp--preset--color--base);
 	font-weight: 500;
 }
