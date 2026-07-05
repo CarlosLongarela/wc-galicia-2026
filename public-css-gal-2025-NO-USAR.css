@@ -413,6 +413,34 @@ header {
 	background-color: #e0f8ff;
 }
 
+/* Change in 2026: Change page ID to the one used in the site */
+/* Schedule Spanish, change texts */
+.page-id-2443 .wordcamp-schedule__date {
+	color: transparent;
+	font-size: 0 !important;
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-2443 .wordcamp-schedule__date::after {
+	color: var(--wp--preset--color--accent-4);
+	font-size: 48px;
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-2443 .wp-block-wordcamp-schedule[data-attributes*="2025-10-03"] .wordcamp-schedule__date::after {
+	content: '16 de octubre, 2025';
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-2443 .wp-block-wordcamp-schedule[data-attributes*="2025-10-04"] .wordcamp-schedule__date::after {
+	content: '17 de octubre, 2025';
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-2443 .wp-block-wordcamp-schedule[data-attributes*="2025-10-05"] .wordcamp-schedule__date::after {
+	content: '18 de octubre, 2025';
+}
+
 /*** Sessions ***/
 .single-wcb_session .taxonomy-wcb_session_category a {
 	border-radius: 0;
