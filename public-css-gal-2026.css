@@ -751,6 +751,34 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
     font-family: 'Love Ya Like A Sister';
 }
 
+/* Change in 2026: Change page ID to the one used in the site */
+/* Schedule Spanish, change texts */
+.page-id-2443 .wordcamp-schedule__date {
+	color: transparent;
+	font-size: 0 !important;
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-2443 .wordcamp-schedule__date::after {
+	color: var(--wp--preset--color--accent-4);
+	font-size: 48px;
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-2443 .wp-block-wordcamp-schedule[data-attributes*="2025-10-03"] .wordcamp-schedule__date::after {
+	content: '3 de octubre, 2025';
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-2443 .wp-block-wordcamp-schedule[data-attributes*="2025-10-04"] .wordcamp-schedule__date::after {
+	content: '4 de octubre, 2025';
+}
+
+/* Change in 2026: Change page ID to the one used in the site */
+.page-id-2443 .wp-block-wordcamp-schedule[data-attributes*="2025-10-05"] .wordcamp-schedule__date::after {
+	content: '5 de octubre, 2025';
+}
+
 /*** Speakers ***/
 .single-wcb_speaker .wordcamp-sessions__title {
 	margin-top: 0;
