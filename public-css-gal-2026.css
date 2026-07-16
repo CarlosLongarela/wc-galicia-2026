@@ -839,6 +839,8 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 .single-wcb_speaker .wp-block-wordcamp-avatar img {
 	width: 150px !important;
 	height: 150px !important;
+	min-width: 150px;
+    min-height: 10px;
 }
 
 .single-wcb_speaker .wp-block-wordcamp-avatar img {
