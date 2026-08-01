@@ -885,21 +885,21 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 
 @media screen and (max-width: 1040px) {
 	.mask-organizer img {
-		height: 200px;
+		height: 200px !important;
 		mask-size: 200px;
 	}
 }
 
 @media screen and (max-width: 950px) {
 	.mask-organizer img {
-		height: 150px;
+		height: 150px !important;
 		mask-size: 150px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.mask-organizer img {
-		height: 246px;
+		height: 246px !important;
 		mask-size: 246px;
 	}
 }
