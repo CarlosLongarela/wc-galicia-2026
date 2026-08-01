@@ -866,11 +866,17 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 	display: none;
 }
 
+.mask-organizer {
+	text-align: center;
+}
+
 .mask-organizer img {
 	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
 	mask-size: 256px;
 	mask-repeat: no-repeat;
 	mask-position: center;
+	height: 278px;
+	width: auto;
 }
 
 li.wcb_organizer:nth-of-type(even) .mask-organizer img {

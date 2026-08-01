@@ -282,7 +282,7 @@ header {
 #tix-attendees .tix-attendee-list li {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; 
 	height: auto;
 }
 
