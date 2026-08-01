@@ -882,3 +882,24 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado-2.png);
 }
+
+@media screen and (max-width: 1040px) {
+	.mask-organizer img {
+		height: 200px;
+		mask-size: 200px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.mask-organizer img {
+		height: 150px;
+		mask-size: 150px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.mask-organizer img {
+		height: 246px;
+		mask-size: 246px;
+	}
+}
