@@ -862,10 +862,6 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 	mask-image: none !important;
 }
 
-.single-wcb_session .wp-block-post-content p:last-of-type {
-	display: none;
-}
-
 .mask-organizer {
 	text-align: center;
 }
