@@ -265,6 +265,10 @@ Payload URL to update CSS https://galicia.wordcamp.org/2026/wp-admin/admin-ajax.
 	line-height: 1.5;
 }
 
+body.admin-bar #tix {
+	padding-top: 0;
+}
+
 .tix_tickets_table {
 	border-spacing: 0;
 	border-collapse: separate;
